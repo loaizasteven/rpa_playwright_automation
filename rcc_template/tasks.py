@@ -22,7 +22,7 @@ def solve_challenge():
     browser.configure(
         browser_engine="chromium",
         screenshot="on",
-        headless=True,
+        headless=False,
     )
     try:
         # Reads a table from an Excel file hosted online.

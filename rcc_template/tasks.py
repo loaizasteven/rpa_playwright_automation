@@ -23,6 +23,7 @@ def solve_challenge():
         browser_engine="chromium",
         screenshot="on",
         headless=False,
+        slowmo=100,  # Slow down the browser for better visibility
     )
     try:
         # Reads a table from an Excel file hosted online.
